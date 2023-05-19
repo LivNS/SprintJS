@@ -237,7 +237,10 @@ span {
   }
 
   h1{ margin: 0; }
+
   #reporte { 
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
     -webkit-user-select: none; 
     -moz-user-select: none; 
     -ms-user-select: none; 
@@ -261,7 +264,6 @@ span {
   
   #reportForm { 
     display: none;
-  
     border: 6px solid #d9dcdf; 
     padding: 2em;
     width: 400px;
