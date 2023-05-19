@@ -8,6 +8,7 @@
     <title>Document</title>
 </head>
 <body>
+
 <!--Tela de inicio ficticia apenas para estética-->
 
     <div class="iphone">
@@ -33,6 +34,7 @@
     </div>
 
     <!--Sino de notificação que, ao ser clicado gera um alerta-->
+
     <div class="notification-box" id="notificationButton">
         <span class="notification-count">!</span>
         <div class="notification-bell">
@@ -42,8 +44,27 @@
           <span class="bell-rad"></span>
         </div>
       </div>
-      
 
+    <!--Ao clicar no "reporte aquui" um popup para cadastro e report aparecerá e ao clicar em "enviar" um alert de sucesso também aparecerá-->
+
+    <div id="reporte">Reporte aqui!</div>
+<div id="reportForm">
+
+  <h1>Nos ajude a proteger ainda mais nossos usuários!!</h1>
+  
+  <form action="#">
+    <input placeholder="Nome" type="text" required />
+    <input placeholder="Email" type="email" required />
+    <input placeholder="Report" type="text" required />
+    <textarea placeholder="Comentário"></textarea>
+    <input id="submitBtn" class="formBtn" type="submit" />
+    <input class="formBtn" type="reset" />
+  </form>
+</div>
+
+ <!--biblioteca externa para o js-->
+ 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
