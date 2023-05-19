@@ -236,7 +236,10 @@ span {
     100% { transform: translateX(0); }
   }
 
-  h1{ margin: 0; }
+  h1 { 
+    margin: 0; 
+    font-family: 'Bebas Neue', sans-serif;
+}
 
   #reporte { 
     font-family: 'Bebas Neue', sans-serif;
