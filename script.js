@@ -22,8 +22,3 @@ $(function() {
     
   });
 
-  document.getElementById("submitBtn").addEventListener("click", function(event) {
-    event.preventDefault();
-    
-    alert("Seu report foi enviado com sucesso!! Agradecemos pela colaboração!!!");
-  });
