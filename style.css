@@ -288,6 +288,7 @@ span {
   textarea { height: 80px; resize: none; }
   
   .formBtn { 
+    font-family: 'Bebas Neue', sans-serif;
     width: 140px;
     display: inline-block;
     background: rgb(158, 1, 1);
@@ -301,3 +302,5 @@ span {
   .formBtn:hover { 
     background: #040126;
  }
+
+ 
