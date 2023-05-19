@@ -3,7 +3,7 @@
 const notificationButton = document.getElementById('notificationButton');
 
 notificationButton.addEventListener('click', function() {
-  alert('PERIGO PRÓXIMO!!! ENTRE NO APP PARA VERIFICAR O NOVO TRAJETO!!!');
+  alert('PERIGO REPORTADO À 7KM DA SUA LOCALIZAÇÃO!!! ENTRE NO APP PARA VERIFICAR O NOVO TRAJETO!!!');
 });
 
 $(function() {
