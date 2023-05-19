@@ -1,0 +1,240 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://img.freepik.com/fotos-premium/arte-finala-vermelha-e-azul-do-estilo-do-inclinacao-da-cor_25920-1868.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.iphone {
+    box-shadow: inset 0 0 3px 0 rgba(0,0,0,0.2), 0 0 0 1px #999, 0 0 30px 0px rgba(0,0,0,0.7);
+    border: 5px solid #d9dbdc;
+    background: #f8f8f8;
+    padding: 15px;
+    border-radius: 50px;
+    height: 877px;
+    width: 423px;
+    position: relative;
+    margin: 30px auto;  
+    transform: scale(.8);
+}
+
+.iphone-top {
+    padding: 5px 110px 40px;
+    position: relative; 
+}
+
+.speaker {
+    display: block;
+    width: 70px;
+    height: 6px;
+    margin: 0 auto;
+    border-radius: 6px;
+    background: #292728;
+}
+
+.camera {
+    display: block;
+    margin: 0 auto;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-bottom: 13px;
+    background: #333;
+}
+
+.sensor {
+    display: block;
+    width: 15px;
+    height: 15px;
+    float: left;
+    background: #333;
+    margin-top: -5px;
+    border-radius: 50%;
+}
+
+.top-bar, .bottom-bar {
+    display: block;
+    width: 423px;
+    height: 15px;
+    position: absolute;
+    left: -5px;
+}
+
+.border {
+    left: 5px solid #BBB;
+    right: 5px solid #BBB;
+}
+
+.top-bar {
+top: 65px;
+}
+
+.bottom-bar {
+bottom: 65px;
+}
+
+.iphone-screen {
+background: #eee;
+border: 1px solid #fff;
+height: 677px;
+width: 375px;
+margin: 0 auto;
+border: 2px solid rgba(0,0,0,0.9);
+border-radius: 3px;
+overflow: hidden;
+background-image: url("https://www.melhoresdestinos.com.br/wp-content/uploads/2020/04/Google-maps-transporte-publico.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+#img {
+width: 100%;
+}
+
+.buttons {
+    .on-off, .up, .down, .sleep {
+        display: block;
+        background: #CCC;
+        position: absolute;
+        border-radius: 2px 0px 0px 2px;
+}
+.on-off {
+    height: 40px;
+    width: 3px;
+    top: 100px;
+    left: -8px;
+}
+
+.up, .down, .sleep {
+    height: 60px;
+    width: 5px;
+    left: -10px;
+}
+
+.up {
+    top: 170px;
+}
+
+.down {
+    top: 250px;
+}
+
+.sleep {
+    left: auto;
+    right: -10px;
+    top: 170px;    
+    border-radius: 0px 2px 2px 0px;
+}
+}
+
+.iphone-bottom {
+    padding: 10px 0 0;
+}
+
+span {
+    display: block;
+    margin: 0 auto;
+    width: 68px;
+    height: 68px;
+    background: #ccc;
+    border-radius: 50%;
+    border-color: linear-gradient(135deg, #303233 0%, #b5b7b9 50%, #f0f2f2 69%, #303233 100%);
+    position: relative;
+}
+
+  .notification-box {
+    position: fixed;
+    z-index: 99;
+    top: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+  }
+  .notification-bell {
+    animation: bell 1s 1s both infinite;
+  }
+  .notification-bell * {
+    display: block;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px #fff;
+  }
+  .bell-top {
+    width: 6px;
+    height: 6px;
+    border-radius: 3px 3px 0 0;
+  }
+  .bell-middle {
+    width: 25px;
+    height: 25px;
+    margin-top: -1px;
+    border-radius: 12.5px 12.5px 0 0;
+  }
+  .bell-bottom {
+    position: relative;
+    z-index: 0;
+    width: 32px;
+    height: 2px;
+  }
+  .bell-bottom::before,
+  .bell-bottom::after {
+    content: '';
+    position: absolute;
+    top: -4px;
+  }
+  .bell-bottom::before {
+    left: 1px;
+    border-bottom: 4px solid #fff;
+    border-right: 0 solid transparent;
+    border-left: 4px solid transparent;
+  }
+  .bell-bottom::after {
+    right: 1px;
+    border-bottom: 4px solid #fff;
+    border-right: 4px solid transparent;
+    border-left: 0 solid transparent;
+  }
+  .bell-rad {
+    width: 8px;
+    height: 4px;
+    margin-top: 2px;
+    border-radius: 0 0 4px 4px;
+    animation: rad 1s 2s both infinite;
+  }
+  .notification-count {
+    position: absolute;
+    z-index: 1;
+    top: -6px;
+    right: -6px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    color: #fff;
+    animation: zoom 3s 3s both infinite;
+  }
+  @keyframes bell {
+    0% { transform: rotate(0); }
+    10% { transform: rotate(30deg); }
+    20% { transform: rotate(0); }
+    80% { transform: rotate(0); }
+    90% { transform: rotate(-30deg); }
+    100% { transform: rotate(0); }
+  }
+  @keyframes rad {
+    0% { transform: translateX(0); }
+    10% { transform: translateX(6px); }
+    20% { transform: translateX(0); }
+    80% { transform: translateX(0); }
+    90% { transform: translateX(-6px); }
+    100% { transform: translateX(0); }
+  }
+
+
+
