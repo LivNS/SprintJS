@@ -278,16 +278,19 @@ span {
   }
   
   input, textarea { 
+    font-family: 'Bebas Neue', sans-serif;
     margin: .8em auto;
-    font-family: inherit; 
     text-transform: inherit; 
     font-size: inherit;
-    
     display: block; 
     width: 280px; 
     padding: .4em;
   }
-  textarea { height: 80px; resize: none; }
+
+  textarea { 
+    height: 80px; 
+    resize: none; 
+}
   
   .formBtn { 
     font-family: 'Bebas Neue', sans-serif;
